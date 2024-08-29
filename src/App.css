@@ -99,14 +99,18 @@
 
 .task-container {
   display: flex;
+  flex-direction: column;
   gap:60px;
   flex-grow: 1;
 
 }
 
 .task-list{
-  display: flex;
-  align-items: left;
   width: 40%;
 
 }
+
+.task-list2{
+  text-align: left;
+}
+
