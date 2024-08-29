@@ -1,0 +1,112 @@
+.main{
+  text-align: center;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(244, 56, 98) 100.2%);
+  border-radius: 15px;
+  padding-bottom: 60px;
+}
+
+.main-header{
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+ 
+}
+
+.input-containers{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(255, 128, 9);
+  gap: 15px;
+  border: none;
+  
+}
+
+.input-label{
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.input-typespace{
+  font-size: 17px;
+  height: 100%;
+  width: 100%;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.add-btn{
+  background-color: rgb(62, 212, 254);;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 10px;
+  cursor: pointer
+}
+
+.add-btn:hover{
+  background-color: rgb(181, 102, 255);
+  color: black;
+}
+
+.add-btn:active{
+  transform: scale(0.95);
+}
+
+.list-div{
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(190, 28, 28);
+  
+
+}
+
+
+
+
+.list-style{
+  padding: 10px;
+  margin: 0;
+  color: black;
+}
+
+
+.list-style li{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: bisque;
+
+  
+}
+
+.list-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  
+}
+
+.task-container {
+  display: flex;
+  gap:60px;
+  flex-grow: 1;
+
+}
+
+.task-list{
+  display: flex;
+  align-items: left;
+  width: 40%;
+
+}
