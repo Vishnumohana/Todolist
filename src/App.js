@@ -1,5 +1,5 @@
 
-import './App.css';
+import './newstyle.css';
 import Todolist from './Todolist';
 
 function App() {

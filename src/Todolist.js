@@ -33,22 +33,22 @@ export default function Todolist() {
             <input  className='input-typespace' type='text' placeholder='enter description here' value={note} onChange={(e) => { setNote(e.target.value)}}></input>
             <button className='add-btn' type='button' onClick={addTask}>Add</button>
         </div>
-        <div className='list-div'>
-        <ol className='list-style'>
-        {
-            tasks.map((t, index) => 
-                <li className='list-list' key={index}>
-                <div className='task-container'>
-                    <div className='task-list'>{t.task}</div>
-                    <div className='task-list2'>{t.note}</div>
-                    </div>
-                <button className='delete-btn' type='button' onClick={()=> deleteTask(index)} ><MdDelete /></button></li>
-            )
-        
-        }
-        
-    </ol>
-    </div>
+        <div className="list-div">
+  <ol className="list-style">
+    {tasks.map((t, index) => (
+      <li key={index} className="list-item">
+        <div className="task-container">
+          <div className="task">{t.task}</div>
+          <div className="note">{t.note}</div>
+        </div>
+        <button type="button" className="delete-btn" onClick={() => deleteTask(index)}>
+          <MdDelete />
+        </button>
+      </li>
+    ))}
+  </ol>
+</div>
+
     </div>
     
     </>
